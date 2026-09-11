@@ -1,0 +1,20 @@
+name: shared_preferences_shelf_api
+description: The concrete implementation of Shelf Api using Shared Preferences for local storage.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.8.1
+
+resolution: workspace
+
+dependencies:
+  shared_preferences: ^2.5.3
+  rxdart: ^0.28.0
+  shelf_api:
+    path: ../shelf_api
+  meta: ^1.16.0
+
+
+dev_dependencies:
+  mocktail: ^1.0.5

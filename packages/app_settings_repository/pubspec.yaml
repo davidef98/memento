@@ -1,0 +1,16 @@
+name: app_settings_repository
+description: A package to work with App System Settings
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.8.1
+
+resolution: workspace
+
+dependencies:
+  app_settings_api:
+    path: ../app_settings_api
+
+dev_dependencies:
+  mocktail: ^1.0.5

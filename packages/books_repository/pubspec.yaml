@@ -1,0 +1,18 @@
+name: books_repository
+description: A package tha allows users to populate and manage their shelf.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.8.1
+
+resolution: workspace
+
+dependencies:
+  shelf_api:
+    path: ../shelf_api
+  books_api:
+    path: ../books_api
+
+dev_dependencies:
+  mocktail: ^1.0.5

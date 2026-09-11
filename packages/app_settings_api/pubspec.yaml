@@ -1,0 +1,10 @@
+name: app_settings_api
+description: An API providing access to app system settings (es. Language, Theme etc)
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.8.1
+
+resolution: workspace
+

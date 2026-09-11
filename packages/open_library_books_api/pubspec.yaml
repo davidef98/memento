@@ -1,0 +1,18 @@
+name: open_library_books_api
+description: An implementation of the BooksApi that uses a Dio client for networking and Open Library REST API.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.8.1
+
+resolution: workspace
+
+dependencies:
+  books_api:
+    path: ../books_api
+  dio: ^5.11.0
+
+dev_dependencies:
+  test: ^1.25.15
+  mocktail: ^1.0.4

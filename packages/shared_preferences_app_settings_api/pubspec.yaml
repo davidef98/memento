@@ -1,0 +1,17 @@
+name: shared_preferences_app_settings_api
+description: A concrete implementation of the AppSettingsApi using shared preferences for local storage
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.8.1
+
+resolution: workspace
+
+dependencies:
+  app_settings_api:
+    path: ../app_settings_api
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  mocktail: ^1.0.4
